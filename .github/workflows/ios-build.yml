@@ -23,6 +23,7 @@ jobs:
           xcodebuild \
             -project NoFunctionDemoApp.xcodeproj \
             -scheme NoFunctionDemoApp \
+            -sdk iphoneos \
             -destination 'generic/platform=iOS' \
             -configuration Debug \
             clean build \
